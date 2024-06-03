@@ -6,6 +6,10 @@ Using a 2D layout, provided courtesy of Alex Dantas (CEO of CircuitLaunch), I ha
 
 For GyroPalm's use-case, this enables users to experience the joy of controlling a digital robot and practice performing driving and gestures without the risk of potential robot collision. By using this repository, you agree to use the files at your own risk and understand that real-world conditions may vary. Dimensions are approximate and subject to change without notice.
 
+![Gazebo screenshot 1](https://raw.githubusercontent.com/dominicklee/CircuitLaunch-GazeboWorld/master/img/cl1.jpg)
+
+![Gazebo screenshot 2](https://raw.githubusercontent.com/dominicklee/CircuitLaunch-GazeboWorld/master/img/cl2.jpg)
+
 ## Installation
 Copy the `circuit_launch` folder to your own `building_editor_models` in your user directory. If you do not have a `building_editor_models` directory, create a new one. Also copy the `CircuitLaunch2024.world` to your user directory.
 
