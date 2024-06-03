@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <sdf version='1.7'>
   <world name='default'>
     <light name='sun' type='directional'>
@@ -30,13 +31,15 @@
           </geometry>
           <surface>
             <contact>
-              <collide_bitmask>65535</collide_bitmask>
-              <ode/>
+	      <ode>
+	        <kp>1e15</kp>
+	        <kd>1e13</kd>
+	      </ode>
             </contact>
             <friction>
               <ode>
-                <mu>100</mu>
-                <mu2>50</mu2>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
               </ode>
               <torsional>
                 <ode/>
